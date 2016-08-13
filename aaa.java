@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class aa{
+class aaa{
 public static void main(String[]args){
 Scanner sc=new Scanner(System.in);
 System.out.println("enter the no of elements");
