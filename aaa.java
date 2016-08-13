@@ -6,6 +6,7 @@ Scanner sc=new Scanner(System.in);
 System.out.println("enter the no of elements");
 HashSet<Integer> st=new HashSet<Integer>();
 int n=sc.nextInt();
+if(n>0){
 int a[]=new int[n];
 for(int i=0;i<n;i++){
 a[i]=sc.nextInt();
@@ -18,6 +19,7 @@ break;
 } 
  }
  }
-
+}
+else{System.out.println(0);}
 }
 }
