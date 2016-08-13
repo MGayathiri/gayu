@@ -16,7 +16,7 @@ s[i]=sc.next();
 int m=0,p=0;
 //-------
 for(int i=0;i<n-1;i++){
-for(int k=i;k<n;k++){
+for(int k=i+1;k<n;k++){
 int c=0;
 //---
 for(int j=0;j<s[i].length();j++){
@@ -27,12 +27,14 @@ else{break;}
 }
 else{break;}
 }
-if(c>m){p=i;}
+if(c>m){m=c;p=i;}
 //----
 }
 }
 //--------
-System.out.println(s[p].substring(0,m));
+if(m!=0){
+System.out.println(s[p].substring(0,m));}
+else{System.out.println("null");}
 }
 else{
 System.out.println("null");
