@@ -4,6 +4,8 @@ class arrayval{
 public static void main(String [] args){
 Scanner sc=new Scanner(System.in);
 int n=sc.nextInt();
+int f=0;
+if(n>2){
 int a[]=new int[n];
 for(int i=0;i<n;i++){
 a[i]=sc.nextInt();
@@ -17,9 +19,10 @@ a[i]=t;
   }
  }
 if(a[i]==i){
-System.out.println(i);
+f=1;
+System.out.println(i);}
 }
+if(f==0){System.out.println("no values found");}
 }
-
 }
 }
