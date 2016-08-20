@@ -13,7 +13,7 @@ for(int i=0;i<n;i++){
 if(a[i]!=0){
   int x=a[i],c=0;
   for(int j=0;j<n;j++){
-    if(x==a[j]){c++;}
+    if(x==a[j]){c++;a[j]=0;}
     }
   if(c!=0&&c<2){
   System.out.println(x);
