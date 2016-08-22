@@ -1,8 +1,8 @@
-import java.io.*:
+import java.io.*;
 import java.util.*;
 class element2p{
 public static void main(String[] args){
-Scanner sc=new Scanner(Sytem.in);
+Scanner sc=new Scanner(System.in);
 int n=sc.nextInt();
 int a[]=new int [n];
 if(n>0){
