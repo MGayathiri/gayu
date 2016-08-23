@@ -10,7 +10,7 @@ ArrayList<Integer> al=new ArrayList<Integer>();
 for(int i=0;i<n;i++){
 al.add(sc.nextInt());
  }
-ArrayList<Integer> a=new ArrayList<Integer>()
+ArrayList<Integer> a=new ArrayList<Integer>();
 a=fun(al);
 System.out.println(a);
 }
