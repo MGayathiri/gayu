@@ -9,7 +9,7 @@ int a[]=new int[n];
 for(int i=0;i<n;i++){
   a[i]=sc.nextInt();
   }
-  int m=a[0]+a[1],b=a[0];c=a[1];
+  int m=a[0]+a[1],b=a[0],c=a[1];
 for(int i=0;i<n-1;i++){
  for(int j=i+1;j<n;j++){
   if(m>(a[i]+a[j])){
