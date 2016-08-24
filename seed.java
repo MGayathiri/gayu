@@ -9,10 +9,11 @@ for(int i=1;i<n;i++ ){
   int m=1;
   m=m*i;
   int x=i;
+  if(x%10!=x){
   while(x!=0){
     m=m*(x%10);
     x=x/10;
-  }
+  }}
   if(m==n){System.out.println(i);}
   
  }
