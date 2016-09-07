@@ -7,7 +7,7 @@ String s=sc.next();
 Set<Character> st=new TreeSet<Character>();
 int i=0;
 for(i=0;i<s.length();i++){
-if(Character.isLetter(s.charAt(i)){
+if(Character.isLetter(s.charAt(i))){
 st.add(s.charAt(i));}
 }
 if(st.size()==27){
