@@ -9,9 +9,8 @@ int i=0;
 for(i=0;i<s.length();i++){
 if(Character.isLetter(s.charAt(i)){
 st.add(s.charAt(i));}
-else{break;}
 }
-if(i==s.length&&i==27){
+if(st.size()==27){
 System.out.println("PANGRAM");
 }
 else{
