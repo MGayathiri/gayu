@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 clss last2{
+public static void mai(String args[]){
 Scanner sc=new Scanner();
 int n=sc.nextInt();
 if(n>0){
@@ -9,4 +10,5 @@ s=s+n+"";
 s1=s1+s.charAt(s.length()-1)+s.charAt(s.length()-2);
 }
 else{System.out.prinlt("0");}
+}
 }
